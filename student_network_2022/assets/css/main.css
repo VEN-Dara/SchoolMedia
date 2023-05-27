@@ -1,0 +1,373 @@
+.container {
+    position: relative;
+    width: 373px;
+    height: 730px;
+    margin: auto;
+    display: flex;
+    background: #28F1B5;
+    border-radius: 35px;
+}
+
+.searchBtn {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 29px;
+    left: 21px;
+    top: 11px;
+    background: #DDDDDD;
+    border: 3px solid #EEEEEE;
+}
+
+.searchIcon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 3px;
+    left: 3px;
+}
+
+.notificationBtn {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 29px;
+    left: 56px;
+    top: 11px;
+    background: #DDDDDD;
+    border: 3px solid #EEEEEE;
+}
+
+.notificationIcon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0.8px;
+}
+
+.schoolMediaTxt {
+    position: absolute;
+    width: 145px;
+    height: 24px;
+    left: 215px;
+    top: -7px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    
+    color: #999999;
+    text-shadow: -1px 0 #F5F5F5, 0 1px #F5F5F5, 1px 0 #F5F5F5, 0 -1px #F5F5F5;
+}
+
+.menu {
+    position: absolute;
+    width: 353px;
+    height: 43px;
+    left: 12px;
+    top: 50px;
+    display: flex;
+    background: #C0A2FF;
+}
+
+.homeBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 9px;
+    cursor: pointer;
+    
+}
+
+.friendsBtn {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 85px;
+    top: 9px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.libraryBtn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    height: 29px;
+    width: 29px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.chatBtn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 235px;
+    top: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.profileBtn {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    right: 20px;
+    top: 5px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.storyContainer {
+    position: absolute;
+    width: 373px;
+    height: 116px;
+    left: 0px;
+    top: 105px;
+    background: rgba(192, 162, 255, 0.9);
+    display: flex;
+    align-items: center;
+}
+
+.addStoryField {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 13.5px;
+    box-sizing: border-box;
+    width: 65px;
+    height: 95px;
+    background: #D9D9D9;
+    border: 2px solid #DDDDDD;
+    border-radius: 6px;
+}
+
+.addStoryBtn {
+    display: flex;
+    width: 27px;
+    height: 27px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+.plusIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.stroyBox {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: 65px;
+    height: 95px;
+    background: #D9D9D9;
+    border: 2px solid #DDDDDD;
+    border-radius: 6px;
+}
+
+.stroyBox svg {
+    width: 34px;
+    height: 34px;
+}
+
+.postFields {
+    position: absolute;
+    width: 320px;
+    height: 394px;
+    left: 26px;
+    top: 232px;
+    
+    background: #C0A2FF;
+}
+
+.profileField {
+    display: flex;
+}
+
+.profilePicture {
+    width: 40px;
+    height: 39.28px;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.nameUser {
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    left: 54px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.caption {
+    position: absolute;
+    word-wrap: break-word;
+    width:  302px;
+    height: 38px;
+    left: 9px;
+    top: 45px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.photoPost {
+    position: absolute;
+    width: 304px;
+    height: 184px;
+    left: 8px;
+    top: 106px;
+
+    background: #D9D9D9;
+}
+
+.postDescription {
+    position: absolute;
+    width: 303px;
+    height: 69px;
+    word-wrap: break-word;
+    left: 8px;
+    top: 295px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+
+.reactionFields {
+    position: absolute;
+    width: 304px;
+    height: 30px;
+    left: 8px;
+    top: 358px;
+    display: flex;
+    background: #CBFBE6;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.loveBtn i{
+    font-size: 25px;
+    color:#28F1B5;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(219, 219, 219);
+}
+
+.loveBtn i:hover{
+    color:#C90000;
+    text-shadow: 2px 2px 5px #dd7c7c;
+}
+.loveBtn {
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+
+.commentBtn i{
+    font-size: 25px;
+    color:#13ef34;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(235, 235, 235);
+}
+
+.commentBtn {
+    font-size: 10px;
+    position: absolute;
+    left: 143px;
+}
+
+.shareBtn i{
+    font-size: 25px;
+    color:#5100ff;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(157, 157, 157);
+    
+}
+
+.shareBtn {
+    font-size: 10px;
+    position: absolute;
+    left: 252px;  
+}
+
+.postFields2 {
+    position: absolute;
+    width: 320px;
+    height: 97px;
+    left: 26px;
+    top: 630px;
+    
+    background: #C0A2FF;
+}
+
+.profileField2 {
+    display: flex;
+}
+
+.profilePicture2 {
+    width: 40px;
+    height: 39.28px;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.nameUser2 {
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    left: 54px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.caption2 {
+    position: absolute;
+    word-wrap: break-word;
+    width:  302px;
+    height: 38px;
+    left: 9px;
+    top: 45px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
